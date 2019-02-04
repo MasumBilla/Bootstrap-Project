@@ -1,0 +1,109 @@
+/*  global style */
+html,body,div,section,header,footer,article,h1,h2,h3,h4,h5,h6,p,table,tr,td,img{margin:0;padding:0;}
+
+/* page style */
+
+
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+	}
+
+.header,.footer{text-align:center;background-color: antiquewhite;}
+.header,.footer h1{padding: 15px 0;}
+
+#right {
+	height: 400px;
+	background-color: gainsboro;
+}
+#left {
+	height: 400px;
+	background-color: darkgray;
+}
+
+#left>ul{list-style:none;}
+#left > ul > li > a {
+	display: block;
+	width: 210px;
+	color: #111;
+	background-color: azure;
+	padding: 15px;
+	text-align: center;
+	border-bottom: 1px dotted #111;
+}
+#left > ul > li > a:hover {
+	text-decoration: none;
+	background-color: silver;
+	color: aqua;
+	font-size:25px;
+	transition:2s;
+}
+.dropdown-menu {
+	position: absolute;
+	top:93%;
+	left: 126px;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 160px;
+	padding:0;
+	margin: 2px 0 0;
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.dropdown-menu>li>a{
+	display: block;
+	width: 210px;
+	color: #111;
+	background-color: azure;
+	padding: 15px;
+	text-align: center;
+	border-bottom: 1px dotted #111;}
+.dropdown-menu>li>a:hover{
+	text-decoration: none;
+	color: aqua;
+	background-color: silver;
+	transition:1s;
+	transform: rotate(360deg);
+}
+
+.menu{background-color: silver;}
+.navbar-default {
+	background-color: silver;
+	border-color: silver;
+}
+.navbar {
+	position: relative;
+	min-height: 50px;
+	margin-bottom: 0;
+	border: 1px solid transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #111;
+}
+.navbar-default .navbar-brand {
+	color: #111;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	color: #09F;
+	background-color: transparent;
+	transition: 2s;
+
+	
+}
